@@ -1,0 +1,92 @@
+.tabs {
+	margin: auto;
+	display: flex;
+	align-items: center;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 26px;
+	color: $black;
+}
+
+.tab {
+	margin-right: 15px;
+	padding: 5px 0px;
+}
+
+@media only screen and (max-width: 635px) {
+
+	.tab {
+		margin-right: 10px;
+		font-size: 16px;
+	}
+}
+
+.tab:hover {
+	cursor: pointer;
+}
+
+.current-tab {
+	color: $primary;
+	border-bottom: 2px solid $primary;
+}
+
+.current-tab:hover {
+	color: $primary;
+}
+
+.side-tabs {
+	width: 300px;
+	margin-right: 50px;
+}
+
+.side-tab {
+	border-radius: 4px;
+	padding: 8px 15px;
+}
+
+.current-side-tab {
+	background: $light-grey;
+}
+
+.side-tab-children {
+	margin: 10px 0px;
+}
+
+.sst {
+	padding: 10px 30px;
+	margin-left: 30px;
+	border-left: 3px solid $light-grey;
+
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.csst {
+	border-left: 3px solid $black !important;
+}
+
+.side-tab-comp {
+	// height: 60vh;
+	// overflow-y: scroll;
+	width: 100%;
+}
+
+.mobile-side-tabs {
+	overflow-x: hidden;
+	overflow-y: scroll;
+	white-space: nowrap;
+	margin-left: -15px;
+	background: $white;
+	height: 100%; /* 100% Full-height */
+	width: 0; /* 0 width - change this with JavaScript */
+	position: fixed; /* Stay in place */
+	z-index: 3; /* Stay on top */
+	top: 0; /* Stay at the top */
+	right: left;
+	overflow-x: hidden; /* Disable horizontal scroll */
+	padding-top: 60px; /* Place content 60px from the top */
+	transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}

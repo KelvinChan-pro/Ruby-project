@@ -1,0 +1,325 @@
+tims_ford_lake:
+  tims_ford_marina:
+    lat: 35.2247452
+    lng: -86.2433152
+  lakeview_marina:
+    lat: 35.2109172
+    lng: -86.2471384
+  holiday_landing_marina:
+    lat: 35.2697196
+    lng: -86.2444687
+  tims_ford_state_park:
+    lat: 35.2181617
+    lng: -86.2537318
+  twin_creeks_marina:
+    lat: 35.1937869
+    lng: -86.13115739999999
+center_hill_lake:
+  center_hill_marina:
+    lat: 36.0766893
+    lng: -85.8594791
+  hurricane_marina:
+    lat: 36.0450023
+    lng: -85.7555831
+  edgar_evins_marina:
+    lat: 36.0828822
+    lng: -85.8260974
+  hidden_harbor_marina:
+    lat: 36.0210166
+    lng: -85.8227716
+  sligo_marina:
+    lat: 35.9668223
+    lng: -85.71738239999999
+  four_seasons_marina:
+    lat: 35.9415766
+    lng: -85.7021243
+  cookeville_boat_dock:
+    lat: 36.0029773
+    lng: -85.6532186
+  horseshoe_bend_marina:
+    lat: 35.8242403
+    lng: -85.66380389999999
+  cottens_marina:
+    lat: 35.8024192
+    lng: -85.6089762
+  smithmill_marina:
+    lat: 35.9509916
+    lng: -85.74779749999999
+dale_hollow_lake:
+  dale_hollow_marina:
+    lat: 36.5535797
+    lng: -85.447238
+  horse_creek_marina:
+    lat: 36.5091635
+    lng: -85.45116019999999
+  mitchell_creek_marina:
+    lat: 36.514301
+    lng: -85.384658
+  safe_harbor_holly_creek:
+    lat: 36.5903557
+    lng: -85.40333389999999
+  dale_hollow_state_park:
+    lat: 36.7903399
+    lng: -85.3705186
+  east_port_marina:
+    lat: 36.4499196
+    lng: -85.1235027
+  sunset_marina:
+    lat: 36.5325582
+    lng: -85.16303289999999
+  willow_grove_marina:
+    lat: 36.586786
+    lng: -85.3426945
+normandy_lake:
+  firelake_boat_ramp:
+    lat: 35.4455318
+    lng: -86.1794772
+  barton_springs_boat_ramp:
+    lat: 35.4529217
+    lng: -86.22024909999999
+  dement_bridge_boat_ramp:
+    lat: 35.4649417
+    lng: -86.292889
+boone_lake:
+  boone_lake_marina:
+    lat: 36.46243279999999
+    lng: -82.3521397
+  davis_marina:
+    lat: 36.4904735
+    lng: -82.3215975
+  jays_boat_dock:
+    lat: 36.41610420000001
+    lng: -82.38136089999999
+  carefree_boat_club:
+    lat: 36.4195599
+    lng: -82.4041222
+  serenity_cove_marina:
+    lat: 36.3846861
+    lng: -82.3597573
+  lakeview_marina:
+    lat: 36.455709
+    lng: -82.416822
+douglas_lake:
+  douglas_lake_marina:
+    lat: 35.9780628
+    lng: -83.4833089
+  mountain_cove_marina:
+    lat: 35.9509124
+    lng: -83.53861660000001
+  swanns_marina:
+    lat: 36.0358569
+    lng: -83.3332854
+  lighthouse_marina:
+    lat: 35.977387
+    lng: -83.4852032
+  indian_creek_dock:
+    lat: 35.9772361
+    lng: -83.3400509
+tellico_lake:
+  tellico_marina:
+    lat: 35.6029975
+    lng: -84.1972859
+  sequoya_lake_tellico_marina:
+    lat: 35.601598
+    lng: -84.216309
+  windriver_marina:
+    lat: 35.7548094
+    lng: -84.2490224
+  fort_loudin_marina:
+    lat: 35.7966688
+    lng: -84.2366883
+  chato_marina:
+    lat: 35.8068991
+    lng: -84.1463374
+  concord_marina:
+    lat: 35.8654401
+    lng: -84.1300433
+  louisville_marina:
+    lat: 35.8226992
+    lng: -84.0391489
+  fox_road_marina:
+    lat: 35.8762017
+    lng: -84.11627949999999
+  pjs_landing_marina:
+    lat: 35.7525388
+    lng: -84.1722188
+  long_island_marina:
+    lat: 35.8339409
+    lng: -84.492925
+  volunteer_cove_marina:
+    lat: 35.8736774
+    lng: -83.9430644
+  duncan_boat_ramp:
+    lat: 35.8896747
+    lng: -83.9881284
+  volunteer_landing_marina:
+    lat: 35.960928
+    lng: -83.911216
+  caney_creek_marina:
+    lat: 35.8941095
+    lng: -84.5414519
+  indian_river_marina:
+    lat: 36.3360745
+    lng: -84.13270179999999
+  stardust_marina:
+    lat: 36.2666908
+    lng: -84.01858059999999
+  norris_dam_marina:
+    lat: 36.2253751
+    lng: -84.09557509999999
+  twin_cove_marina:
+    lat: 36.286349
+    lng: -84.177246
+  sugar_hollow_marina:
+    lat: 36.3514464
+    lng: -84.0363498
+  flat_hollow_marina:
+    lat: 36.3944688
+    lng: -83.9306751
+  whitman_hollow_marina:
+    lat: 36.3174026
+    lng: -84.0943233
+  swanns_marina:
+    lat: 36.0358569
+    lng: -83.3332854
+  beach_island_marina:
+    lat: 36.3311321
+    lng: -83.7485904
+  huffs_german_creek_marina:
+    lat: 36.3039111
+    lng: -83.34780669999999
+  hickory_star_marina:
+    lat: 35.8761492
+    lng: -84.1160732
+  aqua_knox_marina:
+    lat: 35.8761492
+    lng: -84.1160732
+norris_lake:
+  norris_lake_marina:
+    lat: 36.2253751
+    lng: -84.09557509999999
+  norris_landing_marina:
+    lat: 36.3727604
+    lng: -83.589114
+  sequoya_marina:
+    lat: 36.2453897
+    lng: -84.0536375
+  stardust_marina:
+    lat: 36.2666908
+    lng: -84.01858059999999
+  mountain_lake_marina:
+    lat: 36.2596984
+    lng: -84.14747090000002
+  waterside_marina:
+    lat: 36.242741
+    lng: -83.9817427
+  whitman_hollow_boat_dock:
+    lat: 36.3174026
+    lng: -84.0943233
+  sugar_hollow_marina:
+    lat: 36.3514464
+    lng: -84.0363498
+  flat_hollow_marina:
+    lat: 36.3944688
+    lng: -83.9306751
+  indian_river_marina:
+    lat: 36.3360745
+    lng: -84.13270179999999
+  straight_creek_boat_dock:
+    lat: 36.372798
+    lng: -83.677116
+  hickory_star_resort:
+    lat: 36.2641353
+    lng: -83.88159150000001
+  beach_island_resort_&_marina:
+    lat: 36.3311321
+    lng: -83.7485904
+  kilgores_union_co_boat_dock:
+    lat: 36.407503
+    lng: -83.8423006
+  blue_springs_hollow_boat_dock:
+    lat: 36.405872
+    lng: -83.877663
+  cedar_grove_marina:
+    lat: 36.3651198
+    lng: -83.71542
+watauga_lake:
+  fish_springs_marina:
+    lat: 36.3207414
+    lng: -82.06448429999999
+  lakeshore_marina:
+    lat: 36.312179
+    lng: -82.0981034
+  cove_ridge_marina:
+    lat: 36.3485527
+    lng: -82.0487878
+  pioneer_landing:
+    lat: 36.3154753
+    lng: -81.94768510000002
+reelfoot_lake:
+  reelfoot_lake_marina:
+    lat: 36.3517511
+    lng: -89.4242855
+  blue_bank_marina:
+    lat: 36.3555238
+    lng: -89.3954578
+  bos_landing:
+    lat: 36.3673327
+    lng: -89.43165859999999
+south_holston_lake:
+  laurel_marina:
+    lat: 36.5645716
+    lng: -82.0484645
+  lakeview_dock:
+    lat: 36.5313518
+    lng: -82.0826057
+  sportsman_marina:
+    lat: 36.6110517
+    lng: -81.9947428
+  painter_creek_marina:
+    lat: 36.5843741
+    lng: -82.0420255
+cherokee_lake:
+  hamblen_county_marina:
+    lat: 36.2564661
+    lng: -83.2773603
+  lakeside_marina:
+    lat: 36.2722302
+    lng: -83.2826048
+percy_priest_lake:
+  percy_priest_marina:
+    lat: 36.161194
+    lng: -86.60945579999999
+  elm_hill_marina:
+    lat: 36.1344184
+    lng: -86.6220349
+  hamilton_creek_marina:
+    lat: 36.1071927
+    lng: -86.629635
+  fate_sanders_marina:
+    lat: 36.041942
+    lng: -86.490808
+  blue_turtle_bay_marina:
+    lat: 36.2519141
+    lng: -86.63893569999999
+  creekwood_marina:
+    lat: 36.28594289999999
+    lng: -86.6074454
+  cedar_creek_marina:
+    lat: 36.2746237
+    lng: -86.5115964
+  drakes_marina:
+    lat: 36.2604337
+    lng: -86.6092924
+  anchor_high_marina:
+    lat: 36.2977327
+    lng: -86.644656
+  gallatin_marina:
+    lat: 36.3478192
+    lng: -86.4757269
+  rock_harbor_marina:
+    lat: 36.1595297
+    lng: -86.8844853
+  harpeth_shoals_marina:
+    lat: 36.2745925
+    lng: -87.07411370000001

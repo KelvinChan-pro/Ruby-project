@@ -1,0 +1,55 @@
+//
+// body.scss
+//
+
+body {
+	background: $white;
+	height: 100%;
+	z-index: 1;
+	font-family: Inter;
+    color: $black;
+}
+
+.container {
+	max-width: 1200px;
+	min-height: calc(100vh - 100px);
+}
+
+// page heading //
+
+#page-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 40px auto 20px auto;
+}
+
+.page-title {
+	font-family: Inter;
+	font-weight: bold;
+	font-size: x-large;
+	color: $black;
+}
+
+// section //
+#section-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	vertical-align: middle;
+	margin: 40px auto 10px auto;
+}
+
+.section-title {
+	font-family: Inter;
+	font-weight: bolder;
+	font-size: medium;
+	color: $black;
+}
+
+#page-menu {
+	margin: auto;
+	text-align: right;
+	padding: 10px;
+	margin: 15px auto 15px auto;
+}

@@ -1,0 +1,86 @@
+.boat-card {
+	max-width: 900px;
+	display: flex;
+	padding: 25px 20px;
+
+	.bc-cover {
+		display: block;
+		width: 50%;
+		background-position: 50% 50%;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+		border-radius: 5px;
+		object-fit: cover;
+		overflow: hidden;
+		position: relative;
+	}
+
+	.bc-right {
+		padding-left: 25px;
+		width: 50%;
+
+		h2 {
+			margin: 10px 0px 5px 0px;
+		}
+	}
+
+	.bc-description {
+		max-height: 68px;
+		overflow: hidden;
+	}	
+}
+
+.save-boat {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	font-size: 20px;
+	background: $black;
+	opacity: 0.9;
+	border-radius: 100px;
+	padding: 9px;
+
+
+}
+
+.bc-host-info {
+	display: flex;
+	align-items: center;
+}
+
+.bc-host-avatar {
+	height: 75px;
+	width: 75px;
+	border-radius: 100px;
+	margin-right: 10px;
+}
+
+.mb-boat-card {
+	padding: 15px;
+	margin: 15px 0px;
+	position: relative;
+}
+
+.mb-cover {
+	width: 100%;
+	height: 220px;
+	object-fit: cover;
+}
+
+.bc-type {
+	background: $black;
+	color: $white;
+	border-radius: 5px;
+	opacity: 0.8;
+	padding: 4px 8px;
+	position: absolute;
+	top: 20px;
+	left: 8px;
+	font-size: 14px;
+}
+
+@media only screen and (max-width: 950px) {
+	.bc-activities {
+		display: none !important;
+	}
+}

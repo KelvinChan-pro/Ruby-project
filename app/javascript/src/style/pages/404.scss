@@ -1,0 +1,21 @@
+@media only screen and (max-width: 900px) {
+	.four-zero-four img {
+		max-width: 400px !important;
+	}
+
+}
+
+@media only screen and (max-width: 635px) {
+	.four-zero-four {
+		text-align: center;
+		margin: auto;
+	}
+
+	.four-zero-four img {
+		display: block;
+		margin: auto;
+		margin-bottom: 20px;
+	}
+
+
+}

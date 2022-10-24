@@ -1,0 +1,1 @@
+PostmarkClient = Postmark::ApiClient.new(ENV['POSTMARK_TOKEN'], { http_ssl_version: :TLSv1_2 })

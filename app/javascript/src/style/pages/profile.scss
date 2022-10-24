@@ -1,0 +1,69 @@
+.profile {
+	margin: 50px auto;
+	padding: 0px 25px;
+}
+
+.profile-box-left {
+	max-width: 350px;
+	background: white;
+	border: 1px solid $light-grey;
+	background: #ffffff;
+	box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
+	border-radius: 8px;
+	padding: 30px;
+	margin-bottom: 0px 20px 40px 20px;
+}
+
+.profile-right {
+	padding-left: 75px;
+	max-width: 500px;
+}
+
+.profile-confirmed {
+	border-top: 1px solid $light-grey;
+	margin-top: 25px;
+	padding-top: 25px;
+}
+
+.profile-boat-card {
+	margin-top: 20px;
+	box-shadow: 0px 6px 15px rgba(64, 79, 104, 0.05);
+	border-radius: 8px;
+	width: 100%;
+
+    &:hover {
+        color: $primary !important;
+        text-decoration: none !important;
+    }
+
+	img {
+		width: 100%;
+		height: 250px;
+		border-top-left-radius: 8px;
+		border-top-right-radius: 8px;
+		object-fit: cover;
+	}
+
+	.pbc-title {
+		background: #ffffff;
+		border-bottom-left-radius: 8px;
+		border-bottom-right-radius: 8px;
+		padding: 16px;
+
+        &:hover {
+            color: $primary !important;
+            text-decoration: none !important;
+        }
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.profile-right {
+		margin: 50px auto;
+		padding: 20px;
+	}
+
+	.profile-box-left {
+		margin: 10px auto;
+	}
+}

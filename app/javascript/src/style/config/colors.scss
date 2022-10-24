@@ -1,0 +1,78 @@
+// Colors
+$orange: #F47731;
+$green: #4EC05E;
+$yellow: #EFD458;
+$yellow-light: #fbf3d0;
+$red: #DD3333;
+$teal: #4DC3CC;
+$teal-light: #e6fffd;
+$teal-dark: #00b3a7;
+$pink: #DD33A3;
+$blue: #33A0DD;
+$navy: #1C394A;
+
+// Light Colors
+$light-orange: #f0b09d;
+$light-navy: #758490;
+$light-green: #cbe5cc;
+$light-yellow: #ffe8bb;
+$light-red: #fccbc8;
+
+// Mono Colors
+$white: #FFFFFF;
+$black: #222222;
+$grey: #717171;
+$light-grey: #EAEAEA;
+$very-light-grey: #FAFAFA;
+$cool-grey: #374151;
+
+// Color Mapping
+$colors: ();
+$colors: map-merge(
+    (
+        'orangePool': $orange,
+        'blue': $blue,
+        'pink': $pink,
+        'greenPool': $green,
+        'yellowPool': $yellow,
+        'redPool': $red,
+
+        'light-orange': $light-orange,
+        'light-navy': $light-navy,
+        'light-green': $light-green,
+        'light-yellow': $light-yellow,
+        'light-red': $light-red,
+
+        'whitePool': $white,
+        'black': $black,
+        'grey': $grey,
+        'light-grey': $light-grey,
+    ),
+    $colors
+);
+
+$primary: $teal;
+$primary-light: $teal-light;
+$secondary: $pink;
+$success: $green;
+$info: $light-navy;
+$warning: $yellow;
+$danger: $red;
+$light: $light-grey;
+$dark: $grey;
+
+$theme-colors: ();
+$theme-colors: map-merge(
+    (
+        'default': $grey,
+        'primary': $primary,
+        'secondary': $secondary,
+        'success': $success,
+        'info': $info,
+        'warning': $warning,
+        'danger': $danger,
+        'light': $light,
+        'dark': $dark,
+    ),
+    $theme-colors
+);

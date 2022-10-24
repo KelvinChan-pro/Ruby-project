@@ -1,0 +1,264 @@
+//
+// card.scss
+//
+
+.card {
+	width: 100%;
+	color: $black;
+	background: $white;
+	border: 1px solid $light-grey;
+	box-sizing: border-box;
+	border-radius: 8px;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 22px;
+	text-align: left;
+	padding: 20px;
+	margin: 10px auto 20px auto;
+	box-shadow: 0px 8px 30px rgba(34, 34, 34, 0.07);
+
+	&-prompt {
+		background-color: $light-yellow;
+		border: 1px solid darken($light-yellow, 5%);
+	}
+
+	&-success {
+		background: #eafbf2;
+		border: 1px solid #d5f6e6;
+	}
+
+	&-error {
+		background: #ffe8e6;
+		border: 1px solid #ffd2cc;
+		i {
+			color: #FF5943;
+		}
+	}
+
+	&-wrapper {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&-header-wrapper {
+		display: flex;
+		align-items: center;
+	}
+}
+
+.card-text {
+	color: $black;
+	font-family: 'Open Sans';
+	font-size: small;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	text-overflow: ellipsis;
+
+	&-icon {
+		font-size: x-large;
+		margin-right: 10px;
+	}
+
+	&-title {
+		font-size: medium;
+		font-weight: bolder;
+	}
+
+	&-description {
+		font-size: small;
+		color: $black;
+	}
+
+	&-details {
+		font-size: x-small;
+		color: $black;
+	}
+	&-value {
+		font-weight: bold;
+		font-size: x-large;
+	}
+	&-label {
+		color: $black;
+		font-size: medium;
+		text-overflow: ellipsis;
+	}
+	&-diff {
+		color: $green;
+		margin-top: 5px;
+		font-size: x-small;
+		line-height: 150%;
+	}
+	&-potential {
+		margin-top: 5px;
+		font-size: x-small;
+		line-height: 125%;
+	}
+}
+
+.info-card {
+	padding: 16px 30px;
+	background: $primary-light;
+	border-radius: 4px;
+	border: 1px solid $primary;
+}
+
+.task-card {
+	display: flex;
+	align-items: center;
+}
+
+.boat-card-big {
+	max-width: 1000px;
+	border: 1px solid $light-grey;
+	padding: 15px;
+	position: relative;
+	border-radius: 8px;
+
+	h2 {
+		margin-top: 20px;
+	}
+
+	.boat-photos {
+		width: 100%;
+		display: flex;
+		height: 250px;
+	}
+
+	.boat-photo {
+		padding: 5px;
+		&:hover {
+			cursor: pointer;
+		}
+
+		img {
+			border-radius: 8px;
+			height: 100%;
+			width: 100%;
+			object-fit: cover;
+		}
+	}
+
+	.cover-photo {
+		flex-grow: 1;
+		width: 145%;
+		min-width: 60%;
+		height: 100%;
+	}
+
+	.preview-photo {
+		height: 50%;
+		width: 100%;
+	}
+
+	.host-info {
+		display: flex;
+		align-items: center;
+		margin-top: 30px;
+	}
+
+	.host-avatar {
+		height: 75px;
+		width: 75px;
+		border-radius: 100px;
+		margin-right: 10px;
+	}
+}
+
+.edit-card {
+	display: flex;
+	border-bottom: 1px solid $light-grey;
+	align-items: start;
+	justify-content: space-between;
+	margin: 10px 0px;
+	padding: 10px 0px;
+}
+
+.coming-soon-card {
+    background: $teal-light;
+    border: 1px solid $primary;
+    display: flex;
+    border-radius: 4px;
+    color: $black;
+    padding: 20px;
+    align-items: center;
+
+    i {
+        color: $primary;
+        font-size: 40px;
+        margin-right: 20px;
+    }
+
+    h3 {
+        margin: 0px;
+    }
+}
+
+.booking-card {
+	box-shadow: 0px 8px 30px rgba(34, 34, 34, 0.07);
+	margin: 20px 0px;
+
+	.bc-cover {
+		width: 100%;
+		object-fit: cover;
+		border-top-right-radius: 8px;
+		border-top-left-radius: 8px;
+	}
+	border-radius: 8px;
+
+	.bc-description {
+		padding: 20px;
+	}
+
+	.bc-host-avatar {
+		height: 55px;
+		width: 55px;
+		border-radius: 100px;
+		margin-right: 10px;
+	}
+
+}
+
+
+.dashboard-booking-request {
+	border-bottom: 1px solid $light-grey;
+	padding: 20px 0px;
+
+	.body-light {
+		margin-top: 10px;
+	}
+
+	.host-avatar {
+		width: 70px;
+		height: 70px;
+		border-radius: 100px;
+	}
+
+	&:last-child {
+		border-bottom: none !important;
+	}
+}
+
+.review-card {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	img {
+		width: 70px;
+		height: 70px;
+		border-radius: 100px;
+		margin-right: 15px;
+	}
+
+	.avatar {
+		font-size: 70px;
+		margin-right: 15px;
+	}
+
+	.rc-message {
+		margin-top: 10px;
+	}
+}

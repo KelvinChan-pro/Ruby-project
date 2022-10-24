@@ -1,0 +1,1 @@
+class LakePolicy < RegionPolicy; end

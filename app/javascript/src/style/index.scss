@@ -1,0 +1,411 @@
+@import "config";
+$fa-font-path: "webfonts";
+@import "~@fortawesome/fontawesome-pro/scss/duotone.scss";
+@import "~@fortawesome/fontawesome-pro/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-pro/scss/light.scss";
+@import "~@fortawesome/fontawesome-pro/scss/regular.scss";
+@import "~@fortawesome/fontawesome-pro/scss/solid.scss";
+@import "~@fortawesome/fontawesome-pro/scss/brands.scss";
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "pages";
+@import "components";
+
+// display heavy
+h1 {
+	font-family: Work Sans;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 50px;
+	line-height: 72px;
+}
+
+// headline
+h2 {
+	font-family: Work Sans;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 43px;
+}
+
+// title
+h3 {
+	font-family: Work Sans;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 32px;
+}
+
+h4 {
+	font-family: Inter;
+	font-weight: bolder;
+	font-size: 14px;
+	color: $black;
+}
+
+p {
+	font-family: Inter;
+	font-weight: normal;
+    font-size: 14px;
+	color: $black;
+	margin: auto;
+}
+
+a {
+	color: $primary;
+}
+
+.display-heavy {
+	font-family: Work Sans;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 50px;
+	line-height: 72px;
+}
+
+.headline {
+	font-family: Work Sans;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 43px;
+}
+
+.title {
+	font-family: Work Sans;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 32px;
+}
+
+.title-small-heavy {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 32px;
+}
+
+.title-small {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 32px;
+}
+
+.title-small-light {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 32px;
+}
+
+.subheader-heavy {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 26px;
+}
+
+.subheader-light {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 26px;
+}
+
+.body-heavy {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 23px;
+}
+
+.body-light {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 23px;
+}
+
+.caption-heavy {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 22px;
+}
+
+.caption-light {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 22px;
+}
+
+.small-heavy {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.small-light {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.very-small-light {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.blackPool {
+	color: $black !important;
+}
+
+.greyPool {
+	color: $grey !important;
+}
+
+.light-grey {
+	color: $light-grey !important;
+}
+
+.whitePool {
+	color: $white !important;
+}
+
+.primaryPool {
+	color: $primary !important;
+}
+
+.redPool {
+	color: $red !important;
+}
+
+.greenPool {
+    color: $green !important;
+}
+
+.yellowPool {
+    color: $yellow !important;
+}
+
+.navyPool {
+	color: $navy !important;
+}
+
+.orangePool {
+	color: $orange !important;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.auth-logo {
+	width: 150px;
+	margin: 60px 0px 40px;
+}
+
+.nohover {
+	pointer-events: none;
+	cursor: none;
+}
+
+.hover {
+	pointer-events: auto;
+}
+
+.pointer:hover {
+	cursor: pointer;
+}
+
+.hover-underline:hover {
+	text-decoration: underline;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+}
+
+.flex-between {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.flex-around {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.flex-start {
+	display: flex;
+	align-items: flex-start;
+}
+
+.flex-grow {
+	flex-grow: 1;
+}
+
+.underlined {
+	text-decoration: underline;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+
+.no-decoration {
+	text-decoration: none !important;
+}
+
+.link-btn {
+	text-decoration: underline;
+	color: $primary;
+
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.stripe-banner {
+	background: $primary;
+	color: $white;
+	font-size: 14px;
+	padding: 7px 10px;
+	text-align: center;
+
+	a {
+		color: $navy;
+	}
+
+	@media only screen and (max-width: 767px) {
+		font-size: 10px;
+	}
+}
+
+ol {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 26px;
+	padding-left: 0px;
+	list-style-position:inside;
+
+	li::before {
+	  content: "";
+	  width: 10px;
+	  display: inline-block;
+	}
+}
+
+// mobile classes
+
+.mobile-only {
+	display: none;
+}
+
+.mobile-flex {
+	display: none;
+}
+
+.mobile-flex-around {
+	display:  none;
+}
+
+.mobile-flex-between {
+	display:  none;
+}
+
+.non-mobile-flex-between {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.small-only {
+	display: none;
+}
+
+@media only screen and (max-width: 991px) {
+	.large-only {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.small-only {
+		display: block;
+	}
+
+	.medium-only {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 635px) {
+	.non-mobile-only {
+		display: none !important;
+	}
+
+	.mobile-only {
+		display: block !important;
+	}
+
+	.mobile-flex {
+		display: flex;
+	}
+
+	.mobile-flex-around {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.mobile-flex-between {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.non-mobile-flex-between {
+		display: block;
+	}
+
+	h1 {
+		font-size: 40px;
+	}
+}

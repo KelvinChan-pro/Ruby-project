@@ -1,0 +1,35 @@
+// 
+// spinner.scss
+// 
+
+.spinner-bg {
+	display: inline-block;
+	justify-content: space-between;
+	align-items: center;
+	background: transparent;
+	border: none;
+	width: 120px;
+}
+
+.spinner {
+	position: absolute;
+	top: 55%;
+	transform: translateY(-60%);
+	text-align: center;
+	right: 0;
+	left: 0;
+}
+
+.spinner img {
+	width: 400px;
+	border-bottom: 1px soilid #f1f1f1;
+}
+
+@media only screen and (max-width: 635px) {
+	.spinner {
+		top: 52%;
+		img {
+			width: 275px;
+		}
+	}
+}

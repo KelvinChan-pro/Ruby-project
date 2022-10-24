@@ -1,0 +1,1 @@
+class StatePolicy < RegionPolicy; end

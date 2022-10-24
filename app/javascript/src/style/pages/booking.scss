@@ -1,0 +1,65 @@
+.booking-show {
+	.host-avatar {
+		height: 55px;
+		width: 55px;
+		border-radius: 100px;
+		margin-right: 10px;
+	}
+
+	.trip-details {
+		border: 1px solid $primary;
+	}
+}
+
+.booking-cover-photo {
+	border-radius: 4px;
+	height: 180px;
+	object-fit: cover;
+}
+
+.booking-guest-photo {
+	height: 200px;
+	border-radius: 100%;
+}
+
+.booking-event {
+	background: $very-light-grey !important;
+}
+
+.new-event {
+	background: $white !important;
+}
+
+.booking-payment-info {
+	border-top: 1px solid $light-grey;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+
+
+.grey-divider {
+	border-top: 1px solid $light-grey;
+	margin: 20px 0px;
+}
+
+.small-grey-divider {
+	border-top: 1px solid $light-grey;
+	margin: 10px 0px;
+}
+
+
+// stripe payment form
+
+.payment-card-form {
+	border: 1px solid $light-grey;
+	font-size: 15px !important;
+	line-height: 22px !important;
+	color: $black !important;
+	background: $white !important;
+	height: 55px !important;
+	font-family: Inter !important;
+	font-style: normal !important;
+	font-weight: normal !important;
+	border-radius: 8px !important;
+	padding: 15px 20px !important;
+}

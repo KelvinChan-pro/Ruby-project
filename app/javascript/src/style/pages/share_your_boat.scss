@@ -1,0 +1,44 @@
+#share-your-boat {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1800px;
+    padding: 0px 30px;
+    margin: auto;
+    button {
+        width: 220px;
+        margin-top: 40px;
+    }
+    height: -webkit-calc(100vh - 80px);
+    height:    -moz-calc(100vh - 80px);
+    height:         calc(100vh - 80px);
+}
+
+.syb-text {
+    min-width: 300px;
+    overflow-y: scroll;
+}
+
+.sb-images {
+    height: 100%;
+    white-space: nowrap;
+    img {
+        height: 100%;
+        margin-left: 30px;
+    }
+}
+
+
+@media only screen and (max-width: 635px) {
+    .syb-text {
+        text-align: center;
+    }
+
+
+}
+
+.syb-hiw {
+    background: $navy;
+    color: $white;
+    padding: 100px 30px;
+}

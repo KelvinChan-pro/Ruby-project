@@ -1,0 +1,23 @@
+.search-input {
+	position: relative;
+}
+
+.search-results {
+	position: absolute;
+	top: 29px;
+	left: 0;
+	z-index: 10;
+	background: $white;
+    box-shadow: 0px 0px 8px rgba(58, 58, 68, 0.1), 0px 0px 16px rgba(90, 91, 106, 0.1);
+    border-radius: 8px;
+    width: 100%;
+}
+
+.search-result {
+	padding: 5px 10px;
+}
+
+.search-result:hover {
+	background: #f1f2f4;
+	cursor: pointer;
+}

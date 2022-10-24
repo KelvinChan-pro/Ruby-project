@@ -1,0 +1,59 @@
+.login-modal {
+    color: $black;
+    z-index: 10000;
+}
+
+.login-tab {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 26px;
+	padding: 20px 0px 20px 20px;
+	color: $grey;
+}
+
+.login-tab:hover {
+	cursor: pointer;
+}
+
+.current-lt {
+	color: $black;
+}
+
+.login-tabs {
+	background: $light-grey;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	padding-left: 20px;
+}
+
+.no-account-copy {
+	font-size: 14px;
+	color: $grey;
+	margin-top: 20px;
+
+	span {
+		color: $black;
+	}
+
+	span:hover {
+		cursor: pointer;
+		text-decoration: underline;
+	}
+}
+
+.big-check {
+	color: $primary;
+	font-size: 100px;
+	margin: 20px 0px;
+}
+
+@media only screen and (max-width: 767px) {
+	.login-modal {
+	    .form {
+		    max-height: 500px;
+		    overflow-y: scroll;
+		    padding-bottom: 200px;
+		}
+	}
+}

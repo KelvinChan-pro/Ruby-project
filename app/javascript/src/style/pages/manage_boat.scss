@@ -1,0 +1,28 @@
+#dashboard {
+	@media only screen and (max-width: 767px) {
+		.display-heavy {
+			font-size: 35px;
+		}
+	}
+}
+
+
+.boat-tabs {
+	margin-top: 10px;
+
+	overflow-x: scroll;
+
+	.tab {
+		padding: 10px;
+		font-size: 25px;
+		overflow: hidden;
+		white-space: nowrap;
+		max-width: 150px;
+		text-overflow: ellipsis;
+	}
+
+	.current-tab {
+		color: $primary !important;
+		max-width: 400px;
+	}
+}

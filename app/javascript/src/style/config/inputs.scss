@@ -1,0 +1,268 @@
+// 
+// inputs.scss
+// 
+
+input,textarea {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	&:focus {
+		outline-color: $primary;
+	}
+}
+
+.input-primary {
+	padding: 10px 0px;
+	margin: auto;
+}
+
+.input-primary label {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 26px;
+	color: $black;
+	text-align: left;
+	display: block;
+}
+
+.input-primary input {
+	width: 100%;
+	height: 55px;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 22px;
+	color: $black;
+	background: $white;
+	border: 1px solid $light-grey;
+	box-sizing: border-box;
+	border-radius: 8px;
+	padding: 10px 20px;
+}
+
+// 
+// Select
+// 
+
+select {
+	width: 100%;
+	height: 55px;
+	font-family: Inter !important;
+	color: $grey;
+	background: $white;
+	border: 1px solid $light-grey;
+	border-radius: 8px;
+	padding: 10px 20px;
+	font-size: 15px !important;
+	line-height: 22px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	&:focus {
+		outline-color: $primary;
+	}
+}
+
+.select-options {	
+	font-family: Inter;
+	font-style: normal;
+	color: $grey;
+	background-color: $white;
+	border: 1px solid $light-grey;
+	box-sizing: border-box;
+	z-index: 10;
+	width: 100%;
+	border-radius: 8px;
+	padding: 6px 12px;
+	font-size: medium;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.select-option {
+	padding: 4px 10px;
+	font-family: Inter;
+	font-style: normal;
+	padding: 10px 20px;
+	font-size: 15px;
+	line-height: 22px;
+	color: $grey;
+}
+
+.select-option:last-child {
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+
+.select-option:first-child {
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
+}
+
+// Slider
+
+.slider {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 100%;
+	height: 25px;
+	background: #e1e1e1; 
+	outline: none;
+	-webkit-transition: .2s;
+	transition: opacity .2s;
+	height: 15px;
+	border-radius: 5px;
+}
+
+
+.slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	border-radius: 50%;
+	appearance: none;
+	width: 25px;
+	height: 25px;
+	background: $primary;
+	cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+	width: 25px;
+	height: 25px;
+	background: $primary;
+	cursor: pointer;
+}
+
+.radio-option {
+	border-radius: 8px;
+	border: 1px solid #eaeaea;
+	padding: 18px;
+	text-align: left;
+	margin-top: 10px;
+}
+
+.radio-icon {
+	color: $light-grey;
+	font-size: 20px;
+	margin-right: 15px;
+}
+
+.selected-radio {
+	color: $primary !important;
+}
+
+.input-primary textarea {
+	width: 100%;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 22px;
+	color: $black;
+	background: $white;
+	border: 1px solid $light-grey;
+	box-sizing: border-box;
+	border-radius: 8px;
+	padding: 10px 20px;
+}
+
+.check-input {
+	font-size: 23px;
+	border-radius: 4px;
+	margin-right: 15px;
+
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.list-input {
+	margin-bottom: 20px;
+
+	.li-value {
+		padding: 14px 16px;
+		border: $light-grey 1px solid;
+		border-radius: 8px;
+	}
+
+	i {
+		margin-left: 20px;
+		color: $black;
+		font-size: 25px;
+	}
+}
+
+.list-input-new {
+	input {
+		height: 55px;
+		font-family: Inter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		line-height: 22px;
+		color: $black;
+		background: $white;
+		border: 1px solid $light-grey;
+		box-sizing: border-box;
+		border-top-left-radius: 8px;
+		border-bottom-left-radius: 8px;
+		padding: 10px 20px;
+	}
+
+	button {
+		background: white;
+		border: 1px solid $grey;
+		color: $grey;
+		border-top-right-radius: 8px;
+		border-bottom-right-radius: 8px;
+		padding: 10px 30px;
+		font-size: 15px;
+		line-height: 22px;
+		height: 55px;
+		font-family: Inter;
+		font-style: normal;
+		font-weight: normal;
+	}
+}
+
+.incrementer {
+	width: 100px;
+	i {
+		font-size: 25px;
+		color: $grey;
+	}
+}
+
+.search-select {
+	position: relative;
+}
+
+.search-select-options {
+	box-shadow: 0px 8px 10px rgba(34, 34, 34, 0.07);
+	background: $very-light-grey;
+	border: $light-grey 1px solid;
+	border-radius: 4px;
+	z-index: 1000;
+
+	max-height: 250px;
+	overflow-y: scroll;
+
+	position: absolute;
+	top: 100px;
+	left: 0;
+	right: 0;
+
+	div {
+		padding: 10px 0px 10px 20px;
+
+		&:hover {
+			background: $light-grey;
+			cursor: pointer;
+		}
+	}
+}
+
+

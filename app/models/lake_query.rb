@@ -1,0 +1,2 @@
+class LakeQuery < ApplicationRecord
+end

@@ -1,0 +1,100 @@
+//
+// table.scss
+//
+
+.table-wrapper {
+	overflow-x: scroll;
+}
+
+table {
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 0 10px;
+	font-family: Inter;
+	font-weight: normal;
+	font-size: 16px;
+	color: $grey;
+	margin: 5px auto 20px auto;
+}
+
+thead {
+	font-weight: bold;
+}
+
+tbody {
+	font-weight: normal;
+}
+
+tr {
+	overflow-x: scroll !important;
+}
+
+
+// Table Header Cells
+
+th {
+	color: $black;	
+	border-bottom: 1px solid $grey;
+	padding: 10px 5px;
+	font-weight: 500;
+	white-space: nowrap;
+	-moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	white-space: nowrap;
+
+	&:hover{
+		cursor: pointer;
+
+	}
+}
+
+th i {
+	margin: 5px 5px;
+}
+
+th:first-child {
+	padding-left: 20px;
+}
+
+th:last-child {
+	padding-right: 20px;
+}
+
+
+// Table Data Cells
+
+td {
+	background: $white;
+	padding: 8px;
+	white-space: nowrap;
+	border-bottom: 1px solid $light-grey;
+}
+
+td:first-child {
+	padding-left: 20px;
+}
+
+td:first-child:hover{
+	cursor: pointer;
+}
+
+
+
+td:last-child {
+	padding-right: 20px;
+}
+
+.destroy-row {
+	color: $light-red;
+	text-align: left;
+	padding-left: 50px;
+	width: 10px;
+	cursor: pointer;
+
+	&:hover {
+		color:$red;
+	}
+}
+

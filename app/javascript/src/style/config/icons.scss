@@ -1,0 +1,38 @@
+.icon {
+    padding: 5px;
+    margin: 5px;
+    &-green {
+        color: $green;
+    }
+    &-light-green {
+        color: $light-green;
+    }
+    &-yellow {
+        color: $yellow;
+    }
+    &-light-yellow {
+        color: $light-yellow;
+    }
+    &-red {
+        color: $light-red;
+    }    
+    &-light-grey {
+        color: $light-grey;
+    }
+    &-grey {
+        color: $grey;
+    }
+    &-orange {
+        color: $orange;
+    }
+    &-small {
+        font-size: x-small;
+        vertical-align: top;
+        color: $orange;
+    }
+    &:hover {
+	    color: $grey;
+        text-decoration: none !important;
+        cursor: pointer;
+    }
+}

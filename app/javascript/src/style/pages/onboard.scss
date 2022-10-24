@@ -1,0 +1,225 @@
+.onboard-container {
+	display: flex;
+}
+
+.side-nav {
+	background: $light-grey;
+	height: 100%;
+	max-width: 320px;
+	min-width: 320px;
+	position: relative;
+	padding: 28px;
+	overflow-y: scroll;
+}
+
+.onboard {
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+.save-exit {
+	text-decoration: underline;
+}
+
+.save-exit:hover {
+	cursor: pointer;
+}
+
+.onboard-form {
+	max-width: 740px;
+	margin: 40px auto;
+	overflow-y: scroll;
+	padding-bottom: 60px;
+}
+
+.onboard-status {
+	height: 100px;
+	background: $white;
+	z-index: 2;
+	bottom: 0%;
+	left: 0px;
+	right: 0px;
+	position: absolute;
+}
+
+.onboard-status-bar {
+	background: $light-grey;
+	height: 3px;
+	width: 100%;
+}
+
+.onboard-progress {
+	height: 100%;
+	background: $primary;
+}
+
+.ob-btns {
+	margin: 20px;
+}
+
+.ob-tab {
+	margin: 10px 0px;
+}
+
+.ob-tab:hover {
+	cursor: pointer;
+}
+
+.ob-sub-tab {
+	padding: 10px 10px 10px 26px;
+	border-radius: 4px;
+	margin: 0px !important;
+}
+
+.ob-tab-icon {
+	margin-right: 15px;
+}
+
+.upload-check {
+	color: $light-grey;
+	font-size: 40px;
+}
+
+.file-upload {
+	background: $teal-light;
+	width: 100%;
+	margin: auto;
+	height: 200px;
+	margin-top: 10px;
+	border: 1px solid $primary;
+	border-radius: 2px;
+	text-align: center;
+
+	.primaryPool:hover {
+		text-decoration: underline;
+		cursor: pointer;
+	}
+}
+
+.file-upload-empty {
+	background: $very-light-grey;
+	width: 100%;
+	margin: auto;
+	height: 200px;
+	margin-top: 10px;
+	border: 1px dashed $grey;
+	border-radius: 2px;
+	text-align: center;
+
+	div:hover {
+		text-decoration: underline;
+		cursor: pointer;
+	}
+}
+
+.empty-profile-pic {
+	background: $very-light-grey;
+	width: 200px;
+	height: 200px;
+	margin-top: 10px;
+	border: 1px dashed $grey;
+	border-radius: 100px;
+	text-align: center;
+
+	div:hover {
+		text-decoration: underline;
+	}
+}
+
+.empty-profile-pic:hover {
+	cursor: pointer;
+}
+
+.empty-rectangle {
+	border-radius: 2px !important;
+	width: 200px !important;
+	height: 133px !important;
+
+	i {
+		margin-top: 40px;
+	}
+}
+
+.pp-upload {
+	color: $grey;
+	font-size: 25px;
+	margin-top: 70px;
+}
+
+.big-prof-p {
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	margin-top: 10px;
+
+	:hover {
+		cursor: pointer;
+	}
+}
+
+.gallery-image {
+	:hover {
+		cursor: pointer;
+	}
+
+	object-fit: cover;
+	width: 200px;
+	height: 133px;
+	border-radius: 3px;
+	margin-top: 10px;
+}
+
+.activity-check {
+	border: 1px solid $primary;
+	border-radius: 8px;
+	padding: 20px 15px;
+}
+
+.activity-checked {
+	background: $teal-light;
+}
+
+.anchor-icon {
+	background: $red;
+	padding: 11px 15px;
+	border-radius: 100px;
+}
+
+.boat-icon {
+	padding: 11px 15px;
+	border-radius: 100px;
+	background: $pink;
+}
+
+.sport-icon {
+	padding: 11px 15px;
+	border-radius: 100px;
+	background: $blue;
+}
+
+.celeb-icon {
+	padding: 10px 12px 13px 15px;
+	border-radius: 100px;
+	background: #ffca28;
+}
+
+.verify-identity {
+    margin-top: 30px;
+    border: 1px solid $light-grey;
+    border-radius: 4px;
+    padding: 24px;
+    max-width: 425px;
+
+    .body-light {
+        margin: 20px 0px;
+    }
+}
+
+.boat-rule {
+    max-width: 100px;
+    font-size: 25px;
+    i {
+        margin-right: 10px;
+    }
+}
